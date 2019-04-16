@@ -19,9 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="write into mysql.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="sc table trades.sql" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
