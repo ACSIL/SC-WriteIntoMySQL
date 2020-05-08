@@ -1,4 +1,4 @@
-# Write entries into MySQL
+# Sierra Chart ASCIL study writing entries into MySQL
 
 Couple of functions for writing entries into MySQL when new position is opened and closed. 
 
