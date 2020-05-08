@@ -312,8 +312,8 @@ SCSFExport scsf_LogIntoMySQL(SCStudyInterfaceRef sc)
     if (sc.SetDefaults)
     {
         sc.GraphRegion = 0;
-        sc.GraphName = "General foo for logging into mysql";
-        sc.GlobalDisplayStudyNameSubgraphNamesAndValues = 0;
+        sc.GraphName = "General function for logging into MySQL";
+        //sc.GlobalDisplayStudyNameSubgraphNamesAndValues = 0;
         sc.FreeDLL = 1;
         sc.UpdateAlways = 1;
         sc.Input[0].Name = "Server";
@@ -345,10 +345,8 @@ SCSFExport scsf_LogIntoMySQL(SCStudyInterfaceRef sc)
     }
     if (previous_qt_perzist == 1 && PositionData.PositionQuantity == 0)
     {
-        // write_last_trade_from_tradelog_into_mysql(sc) //cutom foo
-        write_all_trades_from_tradelog_into_mysql(sc); //cutom foo
+		write_last_trade_from_tradelog_into_mysql(sc); //cutom foo
+        // write_all_trades_from_tradelog_into_mysql(sc); //cutom foo
         previous_qt_perzist = 0;
     }
-
-
 }

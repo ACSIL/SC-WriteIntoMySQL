@@ -559,7 +559,7 @@ SCSFExport scsf_LogIntoMySQL(SCStudyInterfaceRef sc)
     {
         sc.GraphRegion = 0;
         sc.GraphName = "General foo for logging into mysql";
-        sc.GlobalDisplayStudyNameSubgraphNamesAndValues = 0;
+//        sc.GlobalDisplayStudyNameSubgraphNamesAndValues = 0;
         sc.FreeDLL = 1;
         sc.UpdateAlways = 1;
         sc.Input[0].Name = "Server";

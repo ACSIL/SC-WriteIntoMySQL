@@ -17,4 +17,9 @@
   <ItemGroup>
     <None Include="sc table trades.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\write entries into mysql from siera tradelog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
