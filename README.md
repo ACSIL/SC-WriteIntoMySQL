@@ -21,3 +21,6 @@ just copy them all from C:\Program Files\MySQL\MySQL Server 8.0\bin to C:\Sierra
 ## Important notice:
 Be sure you build it as Release - 64bit project - https://prnt.sc/sd6d1p. If you try to buil in on Debug, it will not work and you will see a linker error.
 Be sure you run your SierraChart 64bit, otherwise you will not see this study and will not able to add it.
+
+## TODO:
+Refactor the code. Now it is all messed up in one place. I focused on make-it-work rather then make it nice. For example the query build should be separated etc.
